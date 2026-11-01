@@ -1,0 +1,798 @@
+{
+  "ApmProject": [
+    {
+      "id": "00000000-0099-0001-0000-000000000001",
+      "name": "Project #1 — Enterprise Primary Record",
+      "description": "Project description configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0001-0000-000000000002",
+      "name": "Project #2 — Enterprise Operations Record",
+      "description": "Project description configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0001-0000-000000000003",
+      "name": "Project #3 — Enterprise Compliance Record",
+      "description": "Project description configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DatDashboard": [
+    {
+      "id": "00000000-0099-0002-0000-000000000001",
+      "slug": "DD-2026-0001",
+      "title": "Dashboard #1 — Enterprise Primary Record",
+      "collectionName": "Dashboard #1 — Enterprise Primary Record",
+      "description": "Dashboard description configuration (1)",
+      "globalFiltersSchemaJson": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "whatIfParametersJson": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "certificationStatus": "Dashboard certificationStatus configuration (1)",
+      "starterPackKey": "DD-2026-0001",
+      "viewCount90d": 10,
+      "discussionChannelId": "00000000-0099-0001-0000-000000000001",
+      "ownerUserId": "00000000-0099-0001-0000-000000000001",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0002-0000-000000000002",
+      "slug": "DD-2026-0002",
+      "title": "Dashboard #2 — Enterprise Operations Record",
+      "collectionName": "Dashboard #2 — Enterprise Operations Record",
+      "description": "Dashboard description configuration (2)",
+      "globalFiltersSchemaJson": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "whatIfParametersJson": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "certificationStatus": "Dashboard certificationStatus configuration (2)",
+      "starterPackKey": "DD-2026-0002",
+      "viewCount90d": 20,
+      "discussionChannelId": "00000000-0099-0001-0000-000000000002",
+      "ownerUserId": "00000000-0099-0001-0000-000000000002",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0002-0000-000000000003",
+      "slug": "DD-2026-0003",
+      "title": "Dashboard #3 — Enterprise Compliance Record",
+      "collectionName": "Dashboard #3 — Enterprise Compliance Record",
+      "description": "Dashboard description configuration (3)",
+      "globalFiltersSchemaJson": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "whatIfParametersJson": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "certificationStatus": "Dashboard certificationStatus configuration (3)",
+      "starterPackKey": "DD-2026-0003",
+      "viewCount90d": 30,
+      "discussionChannelId": "00000000-0099-0001-0000-000000000003",
+      "ownerUserId": "00000000-0099-0001-0000-000000000003",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DatSemanticModel": [
+    {
+      "id": "00000000-0099-0003-0000-000000000001",
+      "code": "DSM-2026-0001",
+      "name": "Semantic Model #1 — Enterprise Primary Record",
+      "sourceType": "Semantic Model sourceType configuration (1)",
+      "entitiesJson": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "joinsJson": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "primaryGrain": "Semantic Model primaryGrain configuration (1)",
+      "executionMode": "Semantic Model executionMode configuration (1)",
+      "refreshCron": "Semantic Model refreshCron configuration (1)",
+      "lastRefreshedAt": "2026-11-01T10:00:00Z",
+      "certificationStatus": "Semantic Model certificationStatus configuration (1)",
+      "certifiedByUserId": "00000000-0099-0001-0000-000000000001",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0003-0000-000000000002",
+      "code": "DSM-2026-0002",
+      "name": "Semantic Model #2 — Enterprise Operations Record",
+      "sourceType": "Semantic Model sourceType configuration (2)",
+      "entitiesJson": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "joinsJson": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "primaryGrain": "Semantic Model primaryGrain configuration (2)",
+      "executionMode": "Semantic Model executionMode configuration (2)",
+      "refreshCron": "Semantic Model refreshCron configuration (2)",
+      "lastRefreshedAt": "2026-11-02T10:00:00Z",
+      "certificationStatus": "Semantic Model certificationStatus configuration (2)",
+      "certifiedByUserId": "00000000-0099-0001-0000-000000000002",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0003-0000-000000000003",
+      "code": "DSM-2026-0003",
+      "name": "Semantic Model #3 — Enterprise Compliance Record",
+      "sourceType": "Semantic Model sourceType configuration (3)",
+      "entitiesJson": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "joinsJson": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "primaryGrain": "Semantic Model primaryGrain configuration (3)",
+      "executionMode": "Semantic Model executionMode configuration (3)",
+      "refreshCron": "Semantic Model refreshCron configuration (3)",
+      "lastRefreshedAt": "2026-11-03T10:00:00Z",
+      "certificationStatus": "Semantic Model certificationStatus configuration (3)",
+      "certifiedByUserId": "00000000-0099-0001-0000-000000000003",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DatSyncPipeline": [
+    {
+      "id": "00000000-0099-0004-0000-000000000001",
+      "code": "DSP-2026-0001",
+      "name": "Sync Pipeline #1 — Enterprise Primary Record",
+      "sourceConnectionId": "00000000-0099-0001-0000-000000000001",
+      "destinationTargetId": "00000000-0099-0001-0000-000000000001",
+      "syncMode": "Sync Pipeline syncMode configuration (1)",
+      "historyModeScd2": true,
+      "streamsConfigJson": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "driftPolicy": "Sync Pipeline driftPolicy configuration (1)",
+      "scheduleCron": "Sync Pipeline scheduleCron configuration (1)",
+      "freshnessSlaMinutes": 10,
+      "monthlyMarCap": 10,
+      "status": "ACTIVE",
+      "version": 1,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0004-0000-000000000002",
+      "code": "DSP-2026-0002",
+      "name": "Sync Pipeline #2 — Enterprise Operations Record",
+      "sourceConnectionId": "00000000-0099-0001-0000-000000000002",
+      "destinationTargetId": "00000000-0099-0001-0000-000000000002",
+      "syncMode": "Sync Pipeline syncMode configuration (2)",
+      "historyModeScd2": true,
+      "streamsConfigJson": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "driftPolicy": "Sync Pipeline driftPolicy configuration (2)",
+      "scheduleCron": "Sync Pipeline scheduleCron configuration (2)",
+      "freshnessSlaMinutes": 20,
+      "monthlyMarCap": 20,
+      "status": "IN_PROGRESS",
+      "version": 2,
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0004-0000-000000000003",
+      "code": "DSP-2026-0003",
+      "name": "Sync Pipeline #3 — Enterprise Compliance Record",
+      "sourceConnectionId": "00000000-0099-0001-0000-000000000003",
+      "destinationTargetId": "00000000-0099-0001-0000-000000000003",
+      "syncMode": "Sync Pipeline syncMode configuration (3)",
+      "historyModeScd2": false,
+      "streamsConfigJson": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "driftPolicy": "Sync Pipeline driftPolicy configuration (3)",
+      "scheduleCron": "Sync Pipeline scheduleCron configuration (3)",
+      "freshnessSlaMinutes": 30,
+      "monthlyMarCap": 30,
+      "status": "COMPLETED",
+      "version": 3,
+      "isDeleted": false
+    }
+  ],
+  "DatTransformationModel": [
+    {
+      "id": "00000000-0099-0005-0000-000000000001",
+      "code": "DTM-2026-0001",
+      "name": "Transformation Model #1 — Enterprise Primary Record",
+      "modelType": "Transformation Model modelType configuration (1)",
+      "materialization": "Transformation Model materialization configuration (1)",
+      "upstreamPipelineIds": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "upstreamModelIds": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "sqlOrPrepSpec": "Transformation Model sqlOrPrepSpec configuration (1)",
+      "qualityTestsJson": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "gitRepositoryId": "00000000-0099-0001-0000-000000000001",
+      "gitCommitSha": "Transformation Model gitCommitSha configuration (1)",
+      "targetWarehouseTableId": "00000000-0099-0001-0000-000000000001",
+      "lastRunStatus": "Transformation Model lastRunStatus configuration (1)",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0005-0000-000000000002",
+      "code": "DTM-2026-0002",
+      "name": "Transformation Model #2 — Enterprise Operations Record",
+      "modelType": "Transformation Model modelType configuration (2)",
+      "materialization": "Transformation Model materialization configuration (2)",
+      "upstreamPipelineIds": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "upstreamModelIds": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "sqlOrPrepSpec": "Transformation Model sqlOrPrepSpec configuration (2)",
+      "qualityTestsJson": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "gitRepositoryId": "00000000-0099-0001-0000-000000000002",
+      "gitCommitSha": "Transformation Model gitCommitSha configuration (2)",
+      "targetWarehouseTableId": "00000000-0099-0001-0000-000000000002",
+      "lastRunStatus": "Transformation Model lastRunStatus configuration (2)",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0005-0000-000000000003",
+      "code": "DTM-2026-0003",
+      "name": "Transformation Model #3 — Enterprise Compliance Record",
+      "modelType": "Transformation Model modelType configuration (3)",
+      "materialization": "Transformation Model materialization configuration (3)",
+      "upstreamPipelineIds": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "upstreamModelIds": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "sqlOrPrepSpec": "Transformation Model sqlOrPrepSpec configuration (3)",
+      "qualityTestsJson": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "gitRepositoryId": "00000000-0099-0001-0000-000000000003",
+      "gitCommitSha": "Transformation Model gitCommitSha configuration (3)",
+      "targetWarehouseTableId": "00000000-0099-0001-0000-000000000003",
+      "lastRunStatus": "Transformation Model lastRunStatus configuration (3)",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "FinBudget": [
+    {
+      "id": "00000000-0099-0006-0000-000000000001",
+      "scenarioId": "00000000-0099-0001-0000-000000000001",
+      "entityId": "00000000-0099-0001-0000-000000000001",
+      "fiscalYear": "Budget fiscalYear configuration (1)",
+      "totalAmount": 1250,
+      "isDeleted": false,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "00000000-0099-0006-0000-000000000002",
+      "scenarioId": "00000000-0099-0001-0000-000000000002",
+      "entityId": "00000000-0099-0001-0000-000000000002",
+      "fiscalYear": "Budget fiscalYear configuration (2)",
+      "totalAmount": 2500,
+      "isDeleted": false,
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "00000000-0099-0006-0000-000000000003",
+      "scenarioId": "00000000-0099-0001-0000-000000000003",
+      "entityId": "00000000-0099-0001-0000-000000000003",
+      "fiscalYear": "Budget fiscalYear configuration (3)",
+      "totalAmount": 3750,
+      "isDeleted": false,
+      "status": "COMPLETED"
+    }
+  ],
+  "HrDepartment": [
+    {
+      "id": "00000000-0099-0007-0000-000000000001",
+      "name": "Department #1 — Enterprise Primary Record",
+      "code": "HD-2026-0001",
+      "description": "Department description configuration (1)",
+      "headId": "00000000-0099-0001-0000-000000000001",
+      "parentDepartmentId": "00000000-0099-0001-0000-000000000001",
+      "legalEntityId": "00000000-0099-0001-0000-000000000001",
+      "costCenterCode": "HD-2026-0001",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0007-0000-000000000002",
+      "name": "Department #2 — Enterprise Operations Record",
+      "code": "HD-2026-0002",
+      "description": "Department description configuration (2)",
+      "headId": "00000000-0099-0001-0000-000000000002",
+      "parentDepartmentId": "00000000-0099-0001-0000-000000000002",
+      "legalEntityId": "00000000-0099-0001-0000-000000000002",
+      "costCenterCode": "HD-2026-0002",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0007-0000-000000000003",
+      "name": "Department #3 — Enterprise Compliance Record",
+      "code": "HD-2026-0003",
+      "description": "Department description configuration (3)",
+      "headId": "00000000-0099-0001-0000-000000000003",
+      "parentDepartmentId": "00000000-0099-0001-0000-000000000003",
+      "legalEntityId": "00000000-0099-0001-0000-000000000003",
+      "costCenterCode": "HD-2026-0003",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DatDatabaseCatalog": [
+    {
+      "id": "00000000-0099-0008-0000-000000000001",
+      "databaseName": "Database Catalog #1 — Enterprise Primary Record",
+      "schemaName": "Database Catalog #1 — Enterprise Primary Record",
+      "environment": "Database Catalog environment configuration (1)",
+      "layerType": "Database Catalog layerType configuration (1)",
+      "timeTravelRetentionDays": 10,
+      "clonedFromCatalogId": "00000000-0099-0001-0000-000000000001",
+      "ownerDepartmentId": "00000000-0099-0001-0000-000000000001",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0008-0000-000000000002",
+      "databaseName": "Database Catalog #2 — Enterprise Operations Record",
+      "schemaName": "Database Catalog #2 — Enterprise Operations Record",
+      "environment": "Database Catalog environment configuration (2)",
+      "layerType": "Database Catalog layerType configuration (2)",
+      "timeTravelRetentionDays": 20,
+      "clonedFromCatalogId": "00000000-0099-0001-0000-000000000002",
+      "ownerDepartmentId": "00000000-0099-0001-0000-000000000002",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0008-0000-000000000003",
+      "databaseName": "Database Catalog #3 — Enterprise Compliance Record",
+      "schemaName": "Database Catalog #3 — Enterprise Compliance Record",
+      "environment": "Database Catalog environment configuration (3)",
+      "layerType": "Database Catalog layerType configuration (3)",
+      "timeTravelRetentionDays": 30,
+      "clonedFromCatalogId": "00000000-0099-0001-0000-000000000003",
+      "ownerDepartmentId": "00000000-0099-0001-0000-000000000003",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DatWarehouseTable": [
+    {
+      "id": "00000000-0099-0009-0000-000000000001",
+      "catalogId": "00000000-0099-0001-0000-000000000001",
+      "tableName": "Warehouse Table #1 — Enterprise Primary Record",
+      "tableFormat": "2026-11-01T10:00:00Z",
+      "columnsJson": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "partitionKeys": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "clusterKeys": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "targetLagMinutes": 10,
+      "rowCount": 10,
+      "compressedBytes": 10,
+      "timeTravelBytes": 10,
+      "externalVaultRef": "Warehouse Table externalVaultRef configuration (1)",
+      "lastRefreshedAt": "2026-11-01T10:00:00Z",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0009-0000-000000000002",
+      "catalogId": "00000000-0099-0001-0000-000000000002",
+      "tableName": "Warehouse Table #2 — Enterprise Operations Record",
+      "tableFormat": "2026-11-02T10:00:00Z",
+      "columnsJson": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "partitionKeys": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "clusterKeys": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "targetLagMinutes": 20,
+      "rowCount": 20,
+      "compressedBytes": 20,
+      "timeTravelBytes": 20,
+      "externalVaultRef": "Warehouse Table externalVaultRef configuration (2)",
+      "lastRefreshedAt": "2026-11-02T10:00:00Z",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0009-0000-000000000003",
+      "catalogId": "00000000-0099-0001-0000-000000000003",
+      "tableName": "Warehouse Table #3 — Enterprise Compliance Record",
+      "tableFormat": "2026-11-03T10:00:00Z",
+      "columnsJson": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "partitionKeys": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "clusterKeys": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "targetLagMinutes": 30,
+      "rowCount": 30,
+      "compressedBytes": 30,
+      "timeTravelBytes": 30,
+      "externalVaultRef": "Warehouse Table externalVaultRef configuration (3)",
+      "lastRefreshedAt": "2026-11-03T10:00:00Z",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DatComputeCluster": [
+    {
+      "id": "00000000-0099-0010-0000-000000000001",
+      "code": "DCC-2026-0001",
+      "name": "Compute Cluster #1 — Enterprise Primary Record",
+      "workloadType": "Compute Cluster workloadType configuration (1)",
+      "sizeTier": "Compute Cluster sizeTier configuration (1)",
+      "minClusters": 10,
+      "maxClusters": 10,
+      "autoSuspendSeconds": 10,
+      "autoResume": true,
+      "maxStatementTimeoutSeconds": 10,
+      "maxBytesScannedPerQuery": 10,
+      "resourceMonitorId": "00000000-0099-0001-0000-000000000001",
+      "costCenterDepartmentId": "00000000-0099-0001-0000-000000000001",
+      "state": "Compute Cluster state configuration (1)",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0010-0000-000000000002",
+      "code": "DCC-2026-0002",
+      "name": "Compute Cluster #2 — Enterprise Operations Record",
+      "workloadType": "Compute Cluster workloadType configuration (2)",
+      "sizeTier": "Compute Cluster sizeTier configuration (2)",
+      "minClusters": 20,
+      "maxClusters": 20,
+      "autoSuspendSeconds": 20,
+      "autoResume": true,
+      "maxStatementTimeoutSeconds": 20,
+      "maxBytesScannedPerQuery": 20,
+      "resourceMonitorId": "00000000-0099-0001-0000-000000000002",
+      "costCenterDepartmentId": "00000000-0099-0001-0000-000000000002",
+      "state": "Compute Cluster state configuration (2)",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0010-0000-000000000003",
+      "code": "DCC-2026-0003",
+      "name": "Compute Cluster #3 — Enterprise Compliance Record",
+      "workloadType": "Compute Cluster workloadType configuration (3)",
+      "sizeTier": "Compute Cluster sizeTier configuration (3)",
+      "minClusters": 30,
+      "maxClusters": 30,
+      "autoSuspendSeconds": 30,
+      "autoResume": false,
+      "maxStatementTimeoutSeconds": 30,
+      "maxBytesScannedPerQuery": 30,
+      "resourceMonitorId": "00000000-0099-0001-0000-000000000003",
+      "costCenterDepartmentId": "00000000-0099-0001-0000-000000000003",
+      "state": "Compute Cluster state configuration (3)",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DatSavedSqlWorksheet": [
+    {
+      "id": "00000000-0099-0011-0000-000000000001",
+      "title": "Saved Sql Worksheet #1 — Enterprise Primary Record",
+      "folderName": "Saved Sql Worksheet #1 — Enterprise Primary Record",
+      "defaultCatalogId": "00000000-0099-0001-0000-000000000001",
+      "defaultClusterId": "00000000-0099-0001-0000-000000000001",
+      "sqlText": "Saved Sql Worksheet sqlText configuration (1)",
+      "parametersSchemaJson": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "visibility": "Saved Sql Worksheet visibility configuration (1)",
+      "discussionChannelId": "00000000-0099-0001-0000-000000000001",
+      "ownerUserId": "00000000-0099-0001-0000-000000000001",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0011-0000-000000000002",
+      "title": "Saved Sql Worksheet #2 — Enterprise Operations Record",
+      "folderName": "Saved Sql Worksheet #2 — Enterprise Operations Record",
+      "defaultCatalogId": "00000000-0099-0001-0000-000000000002",
+      "defaultClusterId": "00000000-0099-0001-0000-000000000002",
+      "sqlText": "Saved Sql Worksheet sqlText configuration (2)",
+      "parametersSchemaJson": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "visibility": "Saved Sql Worksheet visibility configuration (2)",
+      "discussionChannelId": "00000000-0099-0001-0000-000000000002",
+      "ownerUserId": "00000000-0099-0001-0000-000000000002",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0011-0000-000000000003",
+      "title": "Saved Sql Worksheet #3 — Enterprise Compliance Record",
+      "folderName": "Saved Sql Worksheet #3 — Enterprise Compliance Record",
+      "defaultCatalogId": "00000000-0099-0001-0000-000000000003",
+      "defaultClusterId": "00000000-0099-0001-0000-000000000003",
+      "sqlText": "Saved Sql Worksheet sqlText configuration (3)",
+      "parametersSchemaJson": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "visibility": "Saved Sql Worksheet visibility configuration (3)",
+      "discussionChannelId": "00000000-0099-0001-0000-000000000003",
+      "ownerUserId": "00000000-0099-0001-0000-000000000003",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DatQueryExecution": [
+    {
+      "id": "00000000-0099-0012-0000-000000000001",
+      "computeClusterId": "00000000-0099-0001-0000-000000000001",
+      "worksheetId": "00000000-0099-0001-0000-000000000001",
+      "callerAppKey": "DQE-2026-0001",
+      "executedByUserId": "00000000-0099-0001-0000-000000000001",
+      "sqlFingerprint": "Query Execution sqlFingerprint configuration (1)",
+      "sqlPreviewRedacted": "Query Execution sqlPreviewRedacted configuration (1)",
+      "status": "ACTIVE",
+      "startedAt": "2026-11-01T10:00:00Z",
+      "completedAt": "2026-11-01T10:00:00Z",
+      "durationMs": 10,
+      "bytesScanned": 10,
+      "bytesSpilled": 10,
+      "creditsConsumed": 10,
+      "planSummaryJson": {
+        "configured": true,
+        "tier": 1
+      },
+      "idempotencyKey": "DQE-2026-0001",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0012-0000-000000000002",
+      "computeClusterId": "00000000-0099-0001-0000-000000000002",
+      "worksheetId": "00000000-0099-0001-0000-000000000002",
+      "callerAppKey": "DQE-2026-0002",
+      "executedByUserId": "00000000-0099-0001-0000-000000000002",
+      "sqlFingerprint": "Query Execution sqlFingerprint configuration (2)",
+      "sqlPreviewRedacted": "Query Execution sqlPreviewRedacted configuration (2)",
+      "status": "IN_PROGRESS",
+      "startedAt": "2026-11-02T10:00:00Z",
+      "completedAt": "2026-11-02T10:00:00Z",
+      "durationMs": 20,
+      "bytesScanned": 20,
+      "bytesSpilled": 20,
+      "creditsConsumed": 20,
+      "planSummaryJson": {
+        "configured": true,
+        "tier": 2
+      },
+      "idempotencyKey": "DQE-2026-0002",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0012-0000-000000000003",
+      "computeClusterId": "00000000-0099-0001-0000-000000000003",
+      "worksheetId": "00000000-0099-0001-0000-000000000003",
+      "callerAppKey": "DQE-2026-0003",
+      "executedByUserId": "00000000-0099-0001-0000-000000000003",
+      "sqlFingerprint": "Query Execution sqlFingerprint configuration (3)",
+      "sqlPreviewRedacted": "Query Execution sqlPreviewRedacted configuration (3)",
+      "status": "COMPLETED",
+      "startedAt": "2026-11-03T10:00:00Z",
+      "completedAt": "2026-11-03T10:00:00Z",
+      "durationMs": 30,
+      "bytesScanned": 30,
+      "bytesSpilled": 30,
+      "creditsConsumed": 30,
+      "planSummaryJson": {
+        "configured": true,
+        "tier": 3
+      },
+      "idempotencyKey": "DQE-2026-0003",
+      "isDeleted": false
+    }
+  ],
+  "DatResourceMonitor": [
+    {
+      "id": "00000000-0099-0013-0000-000000000001",
+      "name": "Resource Monitor #1 — Enterprise Primary Record",
+      "scopeType": "Resource Monitor scopeType configuration (1)",
+      "periodUnit": "Resource Monitor periodUnit configuration (1)",
+      "creditQuota": 10,
+      "creditsUsed": 10,
+      "unitPriceUsd": 1250,
+      "notifyAtPct": 85,
+      "escalateWorkItemAtPct": 85,
+      "suspendAction": "Resource Monitor suspendAction configuration (1)",
+      "linkedBudgetId": "00000000-0099-0001-0000-000000000001",
+      "activeWorkItemId": "00000000-0099-0001-0000-000000000001",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0013-0000-000000000002",
+      "name": "Resource Monitor #2 — Enterprise Operations Record",
+      "scopeType": "Resource Monitor scopeType configuration (2)",
+      "periodUnit": "Resource Monitor periodUnit configuration (2)",
+      "creditQuota": 20,
+      "creditsUsed": 20,
+      "unitPriceUsd": 2500,
+      "notifyAtPct": 90,
+      "escalateWorkItemAtPct": 90,
+      "suspendAction": "Resource Monitor suspendAction configuration (2)",
+      "linkedBudgetId": "00000000-0099-0001-0000-000000000002",
+      "activeWorkItemId": "00000000-0099-0001-0000-000000000002",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0013-0000-000000000003",
+      "name": "Resource Monitor #3 — Enterprise Compliance Record",
+      "scopeType": "Resource Monitor scopeType configuration (3)",
+      "periodUnit": "Resource Monitor periodUnit configuration (3)",
+      "creditQuota": 30,
+      "creditsUsed": 30,
+      "unitPriceUsd": 3750,
+      "notifyAtPct": 95,
+      "escalateWorkItemAtPct": 95,
+      "suspendAction": "Resource Monitor suspendAction configuration (3)",
+      "linkedBudgetId": "00000000-0099-0001-0000-000000000003",
+      "activeWorkItemId": "00000000-0099-0001-0000-000000000003",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DatDataShare": [
+    {
+      "id": "00000000-0099-0014-0000-000000000001",
+      "shareCode": "DDS-2026-0001",
+      "name": "Data Share #1 — Enterprise Primary Record",
+      "direction": "Data Share direction configuration (1)",
+      "sharedTableIds": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "recipientWorkspaceOrOrg": "Data Share recipientWorkspaceOrOrg configuration (1)",
+      "cleanRoomMinGroupSize": 10,
+      "expiresAt": "2026-11-01T10:00:00Z",
+      "approvalStatus": "Data Share approvalStatus configuration (1)",
+      "approvedByUserId": "00000000-0099-0001-0000-000000000001",
+      "activeWorkItemId": "00000000-0099-0001-0000-000000000001",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0014-0000-000000000002",
+      "shareCode": "DDS-2026-0002",
+      "name": "Data Share #2 — Enterprise Operations Record",
+      "direction": "Data Share direction configuration (2)",
+      "sharedTableIds": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "recipientWorkspaceOrOrg": "Data Share recipientWorkspaceOrOrg configuration (2)",
+      "cleanRoomMinGroupSize": 20,
+      "expiresAt": "2026-11-02T10:00:00Z",
+      "approvalStatus": "Data Share approvalStatus configuration (2)",
+      "approvedByUserId": "00000000-0099-0001-0000-000000000002",
+      "activeWorkItemId": "00000000-0099-0001-0000-000000000002",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0099-0014-0000-000000000003",
+      "shareCode": "DDS-2026-0003",
+      "name": "Data Share #3 — Enterprise Compliance Record",
+      "direction": "Data Share direction configuration (3)",
+      "sharedTableIds": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "recipientWorkspaceOrOrg": "Data Share recipientWorkspaceOrOrg configuration (3)",
+      "cleanRoomMinGroupSize": 30,
+      "expiresAt": "2026-11-03T10:00:00Z",
+      "approvalStatus": "Data Share approvalStatus configuration (3)",
+      "approvedByUserId": "00000000-0099-0001-0000-000000000003",
+      "activeWorkItemId": "00000000-0099-0001-0000-000000000003",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ]
+}

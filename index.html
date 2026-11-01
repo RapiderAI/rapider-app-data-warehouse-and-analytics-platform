@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rapider Data Warehouse &amp; Analytics Platform</title>
+  <script src="https://kit.fontawesome.com/5b23df26dc.js" crossorigin="anonymous" defer></script>
+  <script src="/assets/js/rapider-components.js" defer></script>
+  <link rel="stylesheet" href="/assets/themes/rapider-tailwind-theme.css">
+  <link rel="stylesheet" href="/assets/themes/crm-expenses-design.css">
+  <style>
+    body, html { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; }
+    iframe#appFrame { width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <iframe id="appFrame" src="pages/warehouse-overview/warehouse-overview.html"></iframe>
+  <script>
+    const routes = {
+  "warehouse-overview": "pages/warehouse-overview/warehouse-overview.html",
+  "catalog-explorer": "pages/catalog-explorer/catalog-explorer.html",
+  "sql-worksheets": "pages/sql-worksheets/sql-worksheets.html",
+  "compute-clusters": "pages/compute-clusters/compute-clusters.html",
+  "query-history": "pages/query-history/query-history.html",
+  "dynamic-tables-clones": "pages/dynamic-tables-clones/dynamic-tables-clones.html",
+  "resource-monitors": "pages/resource-monitors/resource-monitors.html",
+  "data-shares": "pages/data-shares/data-shares.html",
+  "storage-lifecycle": "pages/storage-lifecycle/storage-lifecycle.html",
+  "table-detail": "pages/table-detail/table-detail.html",
+  "query-profile-detail": "pages/query-profile-detail/query-profile-detail.html",
+  "cluster-monitor-drawer": "pages/cluster-monitor-drawer/cluster-monitor-drawer.html"
+};
+    function handleHash() {
+      const hash = window.location.hash.replace(/^#\/?/, '').split('?')[0];
+      const route = hash || 'warehouse-overview';
+      const target = routes[route] || routes['warehouse-overview'];
+      const iframe = document.getElementById('appFrame');
+      if (iframe) iframe.src = target;
+    }
+    window.addEventListener('hashchange', handleHash);
+    window.addEventListener('load', handleHash);
+  </script>
+</body>
+</html>
