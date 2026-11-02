@@ -1596,6 +1596,142 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "name attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DatDatabaseCatalog",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -1822,6 +1958,142 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "name attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DatWarehouseTable",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -2086,6 +2358,134 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DatComputeCluster",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -2282,6 +2682,134 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "name attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DatSavedSqlWorksheet",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -2524,6 +3052,150 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "description": "name attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "version",
+          "type": "number",
+          "description": "version attribute for DatQueryExecution",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -2754,6 +3426,134 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DatResourceMonitor",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -2972,6 +3772,134 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "recordCode",
+          "type": "string",
+          "description": "recordCode attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "title attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "modelTitle",
+          "type": "string",
+          "description": "modelTitle attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ownerName",
+          "type": "string",
+          "description": "ownerName attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrLabel",
+          "type": "string",
+          "description": "primaryAttrLabel attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "primaryAttrValue",
+          "type": "string",
+          "description": "primaryAttrValue attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrLabel",
+          "type": "string",
+          "description": "secondaryAttrLabel attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "secondaryAttrValue",
+          "type": "string",
+          "description": "secondaryAttrValue attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricLabel",
+          "type": "string",
+          "description": "metricLabel attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "metricValue",
+          "type": "string",
+          "description": "metricValue attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "operationalSummary",
+          "type": "string",
+          "description": "operationalSummary attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "invariantRule",
+          "type": "string",
+          "description": "invariantRule attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "crossSuiteRef",
+          "type": "string",
+          "description": "crossSuiteRef attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "updatedAt",
+          "type": "string",
+          "description": "updatedAt attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "contactPhone",
+          "type": "string",
+          "description": "contactPhone attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "moderationStage",
+          "type": "string",
+          "description": "moderationStage attribute for DatDataShare",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -2993,133 +3921,181 @@
       "name": "Warehouse & FinOps Cockpit",
       "route": "warehouse-overview",
       "htmlFilePath": "pages/warehouse-overview/warehouse-overview.html",
-      "title": "Warehouse & FinOps Cockpit",
+      "title": "Storage & SQL",
       "group": "Storage & SQL",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 1,
-      "developmentDetails": "Active compute cluster pulse, storage footprint (Active vs. Time-Travel vs. Iceberg), credit burn vs. DatResourceMonitor quota, #activeFilterTagsBar."
+      "developmentDetails": "Active compute cluster pulse, storage footprint (Active vs. Time-Travel vs. Iceberg), credit burn vs. DatResourceMonitor quota, #activeFilterTagsBar.",
+      "pageTitle": "Warehouse & FinOps Cockpit",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Active compute cluster pulse, storage footprint (Active vs. Time-Travel vs. Iceberg), credit burn vs. DatResourceMonitor quota, #activeFilterTagsBar."
     },
     {
       "name": "Databases & Tables",
       "route": "catalog-explorer",
       "htmlFilePath": "pages/catalog-explorer/catalog-explorer.html",
-      "title": "Databases & Tables",
+      "title": "Storage & SQL",
       "group": "Storage & SQL",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 2,
-      "developmentDetails": "Hierarchical DatDatabaseCatalog & DatWarehouseTable browser (findSWR), format pills (COLUMNAR, ICEBERG, DYNAMIC_TABLE, SUITE_MIRROR), clickable table name, icon+text Edit, icon-only Delete."
+      "developmentDetails": "Hierarchical DatDatabaseCatalog & DatWarehouseTable browser (findSWR), format pills (COLUMNAR, ICEBERG, DYNAMIC_TABLE, SUITE_MIRROR), clickable table name, icon+text Edit, icon-only Delete.",
+      "pageTitle": "Databases & Tables",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Hierarchical DatDatabaseCatalog & DatWarehouseTable browser (findSWR), format pills (COLUMNAR, ICEBERG, DYNAMIC_TABLE, SUITE_MIRROR), clickable table name, icon+text Edit, icon-only Delete."
     },
     {
       "name": "SQL Worksheet Studio",
       "route": "sql-worksheets",
       "htmlFilePath": "pages/sql-worksheets/sql-worksheets.html",
-      "title": "SQL Worksheet Studio",
+      "title": "Storage & SQL",
       "group": "Storage & SQL",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 3,
-      "developmentDetails": "Multi-tab DatSavedSqlWorksheet IDE, cluster selector, dry-run byte/cost badge, result grid + quick chart toggle, grounded SQL Copilot thread (projectChannelMessage)."
+      "developmentDetails": "Multi-tab DatSavedSqlWorksheet IDE, cluster selector, dry-run byte/cost badge, result grid + quick chart toggle, grounded SQL Copilot thread (projectChannelMessage).",
+      "pageTitle": "SQL Worksheet Studio",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Multi-tab DatSavedSqlWorksheet IDE, cluster selector, dry-run byte/cost badge, result grid + quick chart toggle, grounded SQL Copilot thread (projectChannelMessage)."
     },
     {
       "name": "Compute Clusters",
       "route": "compute-clusters",
       "htmlFilePath": "pages/compute-clusters/compute-clusters.html",
-      "title": "Compute Clusters",
+      "title": "Compute & Performance",
       "group": "Compute & Performance",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 4,
-      "developmentDetails": "DatComputeCluster fleet table showing size (XS–4XL), state (RUNNING, SUSPENDED, RESIZING), autoSuspendSeconds, queue depth, and Resume / Suspend actions."
+      "developmentDetails": "DatComputeCluster fleet table showing size (XS–4XL), state (RUNNING, SUSPENDED, RESIZING), autoSuspendSeconds, queue depth, and Resume / Suspend actions.",
+      "pageTitle": "Compute Clusters",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "DatComputeCluster fleet table showing size (XS–4XL), state (RUNNING, SUSPENDED, RESIZING), autoSuspendSeconds, queue depth, and Resume / Suspend actions."
     },
     {
       "name": "Query History & Live Queue",
       "route": "query-history",
       "htmlFilePath": "pages/query-history/query-history.html",
-      "title": "Query History & Live Queue",
+      "title": "Compute & Performance",
       "group": "Compute & Performance",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 5,
-      "developmentDetails": "Searchable DatQueryExecution ledger with status/cluster filter pills, #activeFilterTagsBar + Clear all, bytes scanned, Decimal128 credits, and Cancel Running Query action."
+      "developmentDetails": "Searchable DatQueryExecution ledger with status/cluster filter pills, #activeFilterTagsBar + Clear all, bytes scanned, Decimal128 credits, and Cancel Running Query action.",
+      "pageTitle": "Query History & Live Queue",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Searchable DatQueryExecution ledger with status/cluster filter pills, #activeFilterTagsBar + Clear all, bytes scanned, Decimal128 credits, and Cancel Running Query action."
     },
     {
       "name": "Dynamic Tables & Clones",
       "route": "dynamic-tables-clones",
       "htmlFilePath": "pages/dynamic-tables-clones/dynamic-tables-clones.html",
-      "title": "Dynamic Tables & Clones",
+      "title": "Compute & Performance",
       "group": "Compute & Performance",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 6,
-      "developmentDetails": "Declarative materialized/dynamic table lag monitor and Zero-Copy DEV/QA clone sandbox manager with expiration timers."
+      "developmentDetails": "Declarative materialized/dynamic table lag monitor and Zero-Copy DEV/QA clone sandbox manager with expiration timers.",
+      "pageTitle": "Dynamic Tables & Clones",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Declarative materialized/dynamic table lag monitor and Zero-Copy DEV/QA clone sandbox manager with expiration timers."
     },
     {
       "name": "FinOps Resource Monitors",
       "route": "resource-monitors",
       "htmlFilePath": "pages/resource-monitors/resource-monitors.html",
-      "title": "FinOps Resource Monitors",
+      "title": "FinOps & Sharing",
       "group": "FinOps & Sharing",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 7,
-      "developmentDetails": "DatResourceMonitor quota cards & tables, departmental HrDepartment chargeback breakdown (Decimal128), and AI Idle-Cluster right-sizing recommendations."
+      "developmentDetails": "DatResourceMonitor quota cards & tables, departmental HrDepartment chargeback breakdown (Decimal128), and AI Idle-Cluster right-sizing recommendations.",
+      "pageTitle": "FinOps Resource Monitors",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "DatResourceMonitor quota cards & tables, departmental HrDepartment chargeback breakdown (Decimal128), and AI Idle-Cluster right-sizing recommendations."
     },
     {
       "name": "Secure Data Sharing",
       "route": "data-shares",
       "htmlFilePath": "pages/data-shares/data-shares.html",
-      "title": "Secure Data Sharing",
+      "title": "FinOps & Sharing",
       "group": "FinOps & Sharing",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 8,
-      "developmentDetails": "Outbound & inbound DatDataShare listings, clean-room k-anonymity aggregation rules, recipient workspace status, and Home WorkItem approval state."
+      "developmentDetails": "Outbound & inbound DatDataShare listings, clean-room k-anonymity aggregation rules, recipient workspace status, and Home WorkItem approval state.",
+      "pageTitle": "Secure Data Sharing",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Outbound & inbound DatDataShare listings, clean-room k-anonymity aggregation rules, recipient workspace status, and Home WorkItem approval state."
     },
     {
       "name": "Time Travel & Storage Hygiene",
       "route": "storage-lifecycle",
       "htmlFilePath": "pages/storage-lifecycle/storage-lifecycle.html",
-      "title": "Time Travel & Storage Hygiene",
+      "title": "FinOps & Sharing",
       "group": "FinOps & Sharing",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 9,
-      "developmentDetails": "Point-in-time table restore console (AS OF), partition/clustering compaction health, and cold-staging cleanup rules."
+      "developmentDetails": "Point-in-time table restore console (AS OF), partition/clustering compaction health, and cold-staging cleanup rules.",
+      "pageTitle": "Time Travel & Storage Hygiene",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Point-in-time table restore console (AS OF), partition/clustering compaction health, and cold-staging cleanup rules."
     },
     {
       "name": "Table Schema, Preview & Time Travel",
       "route": "table-detail",
       "htmlFilePath": "pages/table-detail/table-detail.html",
-      "title": "Table Schema, Preview & Time Travel",
-      "group": "(Hidden)",
+      "title": "*(Hidden)*",
+      "group": "*(Hidden)*",
       "icon": "fas fa-chart-bar",
       "displayInMenu": false,
       "order": 10,
-      "developmentDetails": "Column schema + #100 PII mask tags (#/table-detail?id=...), sample masked row preview, partition stats, Time-Travel snapshot slider, and Back to Catalog."
+      "developmentDetails": "Column schema + #100 PII mask tags (#/table-detail?id=...), sample masked row preview, partition stats, Time-Travel snapshot slider, and Back to Catalog.",
+      "pageTitle": "Table Schema, Preview & Time Travel",
+      "type": "AppPage",
+      "displayOnMenu": false,
+      "description": "Column schema + #100 PII mask tags (#/table-detail?id=...), sample masked row preview, partition stats, Time-Travel snapshot slider, and Back to Catalog."
     },
     {
       "name": "Query Execution Plan Profiler",
       "route": "query-profile-detail",
       "htmlFilePath": "pages/query-profile-detail/query-profile-detail.html",
-      "title": "Query Execution Plan Profiler",
-      "group": "(Hidden)",
+      "title": "*(Hidden)*",
+      "group": "*(Hidden)*",
       "icon": "fas fa-chart-bar",
       "displayInMenu": false,
       "order": 11,
-      "developmentDetails": "Operator DAG flamegraph (#/query-profile-detail?id=...: Scan -> Filter -> Join -> Agg), pruning ratio, spill diagnostics, and AI optimization hints."
+      "developmentDetails": "Operator DAG flamegraph (#/query-profile-detail?id=...: Scan -> Filter -> Join -> Agg), pruning ratio, spill diagnostics, and AI optimization hints.",
+      "pageTitle": "Query Execution Plan Profiler",
+      "type": "AppPage",
+      "displayOnMenu": false,
+      "description": "Operator DAG flamegraph (#/query-profile-detail?id=...: Scan -> Filter -> Join -> Agg), pruning ratio, spill diagnostics, and AI optimization hints."
     },
     {
       "name": "Cluster, Monitor & Share Drawer",
       "route": "cluster-monitor-drawer",
       "htmlFilePath": "pages/cluster-monitor-drawer/cluster-monitor-drawer.html",
-      "title": "Cluster, Monitor & Share Drawer",
-      "group": "(Hidden)",
+      "title": "*(Hidden)*",
+      "group": "*(Hidden)*",
       "icon": "fas fa-chart-bar",
       "displayInMenu": false,
       "order": 12,
-      "developmentDetails": "Sliding creation/edit drawer for DatComputeCluster, DatResourceMonitor, and DatDataShare; enforces finally button reset and closePageDrawer()."
+      "developmentDetails": "Sliding creation/edit drawer for DatComputeCluster, DatResourceMonitor, and DatDataShare; enforces finally button reset and closePageDrawer().",
+      "pageTitle": "Cluster, Monitor & Share Drawer",
+      "type": "AppPage",
+      "displayOnMenu": false,
+      "description": "Sliding creation/edit drawer for DatComputeCluster, DatResourceMonitor, and DatDataShare; enforces finally button reset and closePageDrawer()."
     }
   ],
   "workflows": [],
@@ -3130,133 +4106,181 @@
       "name": "Warehouse & FinOps Cockpit",
       "route": "warehouse-overview",
       "htmlFilePath": "pages/warehouse-overview/warehouse-overview.html",
-      "title": "Warehouse & FinOps Cockpit",
+      "title": "Storage & SQL",
       "group": "Storage & SQL",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 1,
-      "developmentDetails": "Active compute cluster pulse, storage footprint (Active vs. Time-Travel vs. Iceberg), credit burn vs. DatResourceMonitor quota, #activeFilterTagsBar."
+      "developmentDetails": "Active compute cluster pulse, storage footprint (Active vs. Time-Travel vs. Iceberg), credit burn vs. DatResourceMonitor quota, #activeFilterTagsBar.",
+      "pageTitle": "Warehouse & FinOps Cockpit",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Active compute cluster pulse, storage footprint (Active vs. Time-Travel vs. Iceberg), credit burn vs. DatResourceMonitor quota, #activeFilterTagsBar."
     },
     {
       "name": "Databases & Tables",
       "route": "catalog-explorer",
       "htmlFilePath": "pages/catalog-explorer/catalog-explorer.html",
-      "title": "Databases & Tables",
+      "title": "Storage & SQL",
       "group": "Storage & SQL",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 2,
-      "developmentDetails": "Hierarchical DatDatabaseCatalog & DatWarehouseTable browser (findSWR), format pills (COLUMNAR, ICEBERG, DYNAMIC_TABLE, SUITE_MIRROR), clickable table name, icon+text Edit, icon-only Delete."
+      "developmentDetails": "Hierarchical DatDatabaseCatalog & DatWarehouseTable browser (findSWR), format pills (COLUMNAR, ICEBERG, DYNAMIC_TABLE, SUITE_MIRROR), clickable table name, icon+text Edit, icon-only Delete.",
+      "pageTitle": "Databases & Tables",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Hierarchical DatDatabaseCatalog & DatWarehouseTable browser (findSWR), format pills (COLUMNAR, ICEBERG, DYNAMIC_TABLE, SUITE_MIRROR), clickable table name, icon+text Edit, icon-only Delete."
     },
     {
       "name": "SQL Worksheet Studio",
       "route": "sql-worksheets",
       "htmlFilePath": "pages/sql-worksheets/sql-worksheets.html",
-      "title": "SQL Worksheet Studio",
+      "title": "Storage & SQL",
       "group": "Storage & SQL",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 3,
-      "developmentDetails": "Multi-tab DatSavedSqlWorksheet IDE, cluster selector, dry-run byte/cost badge, result grid + quick chart toggle, grounded SQL Copilot thread (projectChannelMessage)."
+      "developmentDetails": "Multi-tab DatSavedSqlWorksheet IDE, cluster selector, dry-run byte/cost badge, result grid + quick chart toggle, grounded SQL Copilot thread (projectChannelMessage).",
+      "pageTitle": "SQL Worksheet Studio",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Multi-tab DatSavedSqlWorksheet IDE, cluster selector, dry-run byte/cost badge, result grid + quick chart toggle, grounded SQL Copilot thread (projectChannelMessage)."
     },
     {
       "name": "Compute Clusters",
       "route": "compute-clusters",
       "htmlFilePath": "pages/compute-clusters/compute-clusters.html",
-      "title": "Compute Clusters",
+      "title": "Compute & Performance",
       "group": "Compute & Performance",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 4,
-      "developmentDetails": "DatComputeCluster fleet table showing size (XS–4XL), state (RUNNING, SUSPENDED, RESIZING), autoSuspendSeconds, queue depth, and Resume / Suspend actions."
+      "developmentDetails": "DatComputeCluster fleet table showing size (XS–4XL), state (RUNNING, SUSPENDED, RESIZING), autoSuspendSeconds, queue depth, and Resume / Suspend actions.",
+      "pageTitle": "Compute Clusters",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "DatComputeCluster fleet table showing size (XS–4XL), state (RUNNING, SUSPENDED, RESIZING), autoSuspendSeconds, queue depth, and Resume / Suspend actions."
     },
     {
       "name": "Query History & Live Queue",
       "route": "query-history",
       "htmlFilePath": "pages/query-history/query-history.html",
-      "title": "Query History & Live Queue",
+      "title": "Compute & Performance",
       "group": "Compute & Performance",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 5,
-      "developmentDetails": "Searchable DatQueryExecution ledger with status/cluster filter pills, #activeFilterTagsBar + Clear all, bytes scanned, Decimal128 credits, and Cancel Running Query action."
+      "developmentDetails": "Searchable DatQueryExecution ledger with status/cluster filter pills, #activeFilterTagsBar + Clear all, bytes scanned, Decimal128 credits, and Cancel Running Query action.",
+      "pageTitle": "Query History & Live Queue",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Searchable DatQueryExecution ledger with status/cluster filter pills, #activeFilterTagsBar + Clear all, bytes scanned, Decimal128 credits, and Cancel Running Query action."
     },
     {
       "name": "Dynamic Tables & Clones",
       "route": "dynamic-tables-clones",
       "htmlFilePath": "pages/dynamic-tables-clones/dynamic-tables-clones.html",
-      "title": "Dynamic Tables & Clones",
+      "title": "Compute & Performance",
       "group": "Compute & Performance",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 6,
-      "developmentDetails": "Declarative materialized/dynamic table lag monitor and Zero-Copy DEV/QA clone sandbox manager with expiration timers."
+      "developmentDetails": "Declarative materialized/dynamic table lag monitor and Zero-Copy DEV/QA clone sandbox manager with expiration timers.",
+      "pageTitle": "Dynamic Tables & Clones",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Declarative materialized/dynamic table lag monitor and Zero-Copy DEV/QA clone sandbox manager with expiration timers."
     },
     {
       "name": "FinOps Resource Monitors",
       "route": "resource-monitors",
       "htmlFilePath": "pages/resource-monitors/resource-monitors.html",
-      "title": "FinOps Resource Monitors",
+      "title": "FinOps & Sharing",
       "group": "FinOps & Sharing",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 7,
-      "developmentDetails": "DatResourceMonitor quota cards & tables, departmental HrDepartment chargeback breakdown (Decimal128), and AI Idle-Cluster right-sizing recommendations."
+      "developmentDetails": "DatResourceMonitor quota cards & tables, departmental HrDepartment chargeback breakdown (Decimal128), and AI Idle-Cluster right-sizing recommendations.",
+      "pageTitle": "FinOps Resource Monitors",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "DatResourceMonitor quota cards & tables, departmental HrDepartment chargeback breakdown (Decimal128), and AI Idle-Cluster right-sizing recommendations."
     },
     {
       "name": "Secure Data Sharing",
       "route": "data-shares",
       "htmlFilePath": "pages/data-shares/data-shares.html",
-      "title": "Secure Data Sharing",
+      "title": "FinOps & Sharing",
       "group": "FinOps & Sharing",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 8,
-      "developmentDetails": "Outbound & inbound DatDataShare listings, clean-room k-anonymity aggregation rules, recipient workspace status, and Home WorkItem approval state."
+      "developmentDetails": "Outbound & inbound DatDataShare listings, clean-room k-anonymity aggregation rules, recipient workspace status, and Home WorkItem approval state.",
+      "pageTitle": "Secure Data Sharing",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Outbound & inbound DatDataShare listings, clean-room k-anonymity aggregation rules, recipient workspace status, and Home WorkItem approval state."
     },
     {
       "name": "Time Travel & Storage Hygiene",
       "route": "storage-lifecycle",
       "htmlFilePath": "pages/storage-lifecycle/storage-lifecycle.html",
-      "title": "Time Travel & Storage Hygiene",
+      "title": "FinOps & Sharing",
       "group": "FinOps & Sharing",
       "icon": "fas fa-chart-bar",
       "displayInMenu": true,
       "order": 9,
-      "developmentDetails": "Point-in-time table restore console (AS OF), partition/clustering compaction health, and cold-staging cleanup rules."
+      "developmentDetails": "Point-in-time table restore console (AS OF), partition/clustering compaction health, and cold-staging cleanup rules.",
+      "pageTitle": "Time Travel & Storage Hygiene",
+      "type": "AppPage",
+      "displayOnMenu": true,
+      "description": "Point-in-time table restore console (AS OF), partition/clustering compaction health, and cold-staging cleanup rules."
     },
     {
       "name": "Table Schema, Preview & Time Travel",
       "route": "table-detail",
       "htmlFilePath": "pages/table-detail/table-detail.html",
-      "title": "Table Schema, Preview & Time Travel",
-      "group": "(Hidden)",
+      "title": "*(Hidden)*",
+      "group": "*(Hidden)*",
       "icon": "fas fa-chart-bar",
       "displayInMenu": false,
       "order": 10,
-      "developmentDetails": "Column schema + #100 PII mask tags (#/table-detail?id=...), sample masked row preview, partition stats, Time-Travel snapshot slider, and Back to Catalog."
+      "developmentDetails": "Column schema + #100 PII mask tags (#/table-detail?id=...), sample masked row preview, partition stats, Time-Travel snapshot slider, and Back to Catalog.",
+      "pageTitle": "Table Schema, Preview & Time Travel",
+      "type": "AppPage",
+      "displayOnMenu": false,
+      "description": "Column schema + #100 PII mask tags (#/table-detail?id=...), sample masked row preview, partition stats, Time-Travel snapshot slider, and Back to Catalog."
     },
     {
       "name": "Query Execution Plan Profiler",
       "route": "query-profile-detail",
       "htmlFilePath": "pages/query-profile-detail/query-profile-detail.html",
-      "title": "Query Execution Plan Profiler",
-      "group": "(Hidden)",
+      "title": "*(Hidden)*",
+      "group": "*(Hidden)*",
       "icon": "fas fa-chart-bar",
       "displayInMenu": false,
       "order": 11,
-      "developmentDetails": "Operator DAG flamegraph (#/query-profile-detail?id=...: Scan -> Filter -> Join -> Agg), pruning ratio, spill diagnostics, and AI optimization hints."
+      "developmentDetails": "Operator DAG flamegraph (#/query-profile-detail?id=...: Scan -> Filter -> Join -> Agg), pruning ratio, spill diagnostics, and AI optimization hints.",
+      "pageTitle": "Query Execution Plan Profiler",
+      "type": "AppPage",
+      "displayOnMenu": false,
+      "description": "Operator DAG flamegraph (#/query-profile-detail?id=...: Scan -> Filter -> Join -> Agg), pruning ratio, spill diagnostics, and AI optimization hints."
     },
     {
       "name": "Cluster, Monitor & Share Drawer",
       "route": "cluster-monitor-drawer",
       "htmlFilePath": "pages/cluster-monitor-drawer/cluster-monitor-drawer.html",
-      "title": "Cluster, Monitor & Share Drawer",
-      "group": "(Hidden)",
+      "title": "*(Hidden)*",
+      "group": "*(Hidden)*",
       "icon": "fas fa-chart-bar",
       "displayInMenu": false,
       "order": 12,
-      "developmentDetails": "Sliding creation/edit drawer for DatComputeCluster, DatResourceMonitor, and DatDataShare; enforces finally button reset and closePageDrawer()."
+      "developmentDetails": "Sliding creation/edit drawer for DatComputeCluster, DatResourceMonitor, and DatDataShare; enforces finally button reset and closePageDrawer().",
+      "pageTitle": "Cluster, Monitor & Share Drawer",
+      "type": "AppPage",
+      "displayOnMenu": false,
+      "description": "Sliding creation/edit drawer for DatComputeCluster, DatResourceMonitor, and DatDataShare; enforces finally button reset and closePageDrawer()."
     }
   ]
 }
